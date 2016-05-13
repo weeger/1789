@@ -11,7 +11,7 @@ $human     = new human();
 $human_two = new human();
 
 echo '<br>Human one is free : ' . $human->is_free();
-echo '<br>Human two is free : ' . $human->is_free();
+echo '<br>Human two is free : ' . $human_two->is_free();
 echo '<br>Humans ar equal in rights : ' . $human->is_equal_to($human_two);
 echo '<br>Humans ar equal in another context : ' . $human->is_equal_to($human_two, 'another_context');
 
